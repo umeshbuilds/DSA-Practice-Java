@@ -7,6 +7,7 @@ public class Patterns {
         pattern30();
         pattern31(5);
         pattern32(4);
+        Butterfly(4);
     }
     //right Triangle
     public static  void rightTriangle(int n){
@@ -99,6 +100,24 @@ public class Patterns {
                 int atEveryIndex = (2*n) - (Math.min(Math.min(i,j),Math.min(2*n-i,2*n-j)));
                 System.out.print(atEveryIndex+" ");
             }
+            System.out.println();
+        }
+    }
+
+    public static void Butterfly(int n) {
+        System.out.println();
+        // Upper Half
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) System.out.print("*");
+            for (int s = 1; s <= 2 * (n - i); s++) System.out.print(" ");
+            for (int j = 1; j <= i; j++) System.out.print("*");
+            System.out.println();
+        }
+        // Lower Half
+        for (int i = n; i >= 1; i--) {
+            for (int j = 1; j <= i; j++) System.out.print("*");
+            for (int s = 1; s <= 2 * (n - i); s++) System.out.print(" ");
+            for (int j = 1; j <= i; j++) System.out.print("*");
             System.out.println();
         }
     }
