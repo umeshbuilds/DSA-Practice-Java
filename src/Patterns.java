@@ -8,6 +8,7 @@ public class Patterns {
         pattern31(5);
         pattern32(4);
         Butterfly(4);
+        hollowSquare(4);
     }
     //right Triangle
     public static  void rightTriangle(int n){
@@ -121,4 +122,20 @@ public class Patterns {
             System.out.println();
         }
     }
+
+    public static void hollowSquare(int n){
+        System.out.println();
+        for (int i = 1; i <=n; i++) {
+            for (int j = 1; j <=n ; j++) {
+                if(i==1 ||i==n ||j==1|| j==n) {
+                    System.out.print("* ");
+                }else{
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+
 }
