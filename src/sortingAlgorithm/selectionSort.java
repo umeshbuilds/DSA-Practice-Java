@@ -1,3 +1,5 @@
+package sortingAlgorithm;
+
 import java.util.Arrays;
 
 public class selectionSort {

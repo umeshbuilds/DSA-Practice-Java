@@ -1,7 +1,9 @@
+package sortingAlgorithm;
+
 import java.util.Arrays;
 
 public class SelectionSortRecursion {
-    static void main(String[] args) {
+    public static void main(String[] args) {
       int[] arr = {3,5,4,6,7};
       selectionSort(arr,arr.length-1,0,0);
       System.out.println(Arrays.toString(arr));

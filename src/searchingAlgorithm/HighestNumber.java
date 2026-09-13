@@ -1,6 +1,8 @@
+package searchingAlgorithm;
+
 public class HighestNumber {
     //array {12,45,7,23,56} highest number find
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr={12,45,7,23,56};
        // int ans =  highestNumber(arr,0, arr.length-1);
         int ans = highest(arr,0, arr.length-1);

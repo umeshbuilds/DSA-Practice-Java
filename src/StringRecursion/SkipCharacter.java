@@ -1,9 +1,8 @@
-package StringRecursion;
+package stringRecursion;
 
 public class SkipCharacter {
-    static void main(String[] args) {
+    public static void main(String[] args) {
      skip("","baccdah");
-
     }
     static void skip(String p, String up){
         if(up.isEmpty()){
@@ -16,7 +15,5 @@ public class SkipCharacter {
         }else{
             skip(p+ch,up.substring(1));
         }
-
-
     }
 }

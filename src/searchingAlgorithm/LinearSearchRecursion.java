@@ -1,5 +1,7 @@
+package searchingAlgorithm;
+
 public class LinearSearchRecursion {
-    static void main(String[] args) {
+    public static void main(String[] args) {
      int[] arr = {2,5,7,9};
      int target = 9;
      System.out.println(search(arr,target,0));

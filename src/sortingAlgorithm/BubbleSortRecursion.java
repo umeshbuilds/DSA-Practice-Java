@@ -1,7 +1,9 @@
+package sortingAlgorithm;
+
 import java.util.Arrays;
 
 public class BubbleSortRecursion {
-    static void main(String[] args) {
+    public static void main(String[] args) {
     int[] arr = {3,4,2,1};
     sort(arr,arr.length-1,0);
     System.out.println(Arrays.toString(arr));

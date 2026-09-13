@@ -1,5 +1,7 @@
+package recursion;
+
 public class FibonacciRecursion {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println(fibonacci(5) );;
     }
 

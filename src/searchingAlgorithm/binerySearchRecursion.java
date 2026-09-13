@@ -1,3 +1,5 @@
+package searchingAlgorithm;
+
 public class binerySearchRecursion {
     public static void main(String[] args) {
         int[] arr = {10, 23, 35, 48, 56, 77, 89, 90};

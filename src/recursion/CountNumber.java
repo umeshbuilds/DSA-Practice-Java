@@ -1,5 +1,7 @@
+package recursion;
+
 public class CountNumber {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int n =302040;
         System.out.println(count(n));
     }

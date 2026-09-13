@@ -1,5 +1,7 @@
+package patterns;
+
 public class TriangleUsingRecursion {
-    static void main(String[] args) {
+    public static void main(String[] args) {
      triangle(4,0);
     }
     static void triangle(int r,int c){

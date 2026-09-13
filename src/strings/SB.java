@@ -1,3 +1,5 @@
+package strings;
+
 import javax.xml.parsers.SAXParser;
 
 public class SB {

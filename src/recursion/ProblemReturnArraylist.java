@@ -1,7 +1,9 @@
+package recursion;
+
 import java.util.ArrayList;
 
 public class ProblemReturnArraylist {
-    static void main(String[] args) {
+    public static void main(String[] args) {
      int[] arr = {1,2,3,4,4,5};
      System.out.println(findAllIndex2(arr,4,0));
     }

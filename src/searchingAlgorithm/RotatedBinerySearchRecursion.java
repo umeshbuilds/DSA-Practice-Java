@@ -1,5 +1,7 @@
+package searchingAlgorithm;
+
 public class RotatedBinerySearchRecursion {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {5,6,7,8,9,1,2,3,4};
         System.out.println(search(arr,8,0,arr.length-1));
 
