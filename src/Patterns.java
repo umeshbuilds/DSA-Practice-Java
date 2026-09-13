@@ -9,6 +9,7 @@ public class Patterns {
         pattern32(4);
         Butterfly(4);
         hollowSquare(4);
+        newPattern(5);
     }
     //right Triangle
     public static  void rightTriangle(int n){
@@ -132,6 +133,20 @@ public class Patterns {
                 }else{
                     System.out.print("  ");
                 }
+            }
+            System.out.println();
+        }
+    }
+
+    public static void newPattern(int n){
+        System.out.println();
+        for (int i = 1; i <= n ; i++) {
+            for (int j = i; j <= 2*i-1; j++) {
+                System.out.print(j +" ");
+            }
+            for (int c = 2*i-2; c >= i ; c--) {
+                System.out.print(c+" ");
+
             }
             System.out.println();
         }
