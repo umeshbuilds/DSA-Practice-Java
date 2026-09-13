@@ -5,7 +5,9 @@ public class QuickSort {
     int[] arr = {5,4,3,2,1};
     quickSort(arr,0, arr.length-1);
     System.out.println(Arrays.toString(arr));
+    Arrays.sort(arr);
     }
+
     static void quickSort(int[] arr,int low, int hi){
         if(low >= hi){
             return;
