@@ -3,6 +3,7 @@ package strings;
 import java.util.ArrayList;
 import java.util.List;
 
+//code for iterative program, instead of recursion
 public class SubSet {
     static void main(String[] args) {
      int[] arr = {1,2,3};
