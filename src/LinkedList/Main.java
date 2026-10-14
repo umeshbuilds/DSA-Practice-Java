@@ -8,5 +8,7 @@ public class Main {
         list.insertFirst(4);
         list.insertFirst(5);
         list.display();
+        list.insertLast(7);
+        list.display();
     }
 }
