@@ -10,5 +10,13 @@ public class Main {
         list.display();
         list.insertLast(7);
         list.display();
+        list.insert(9,3);
+        list.display();
+        System.out.println(list.deleteFirst());
+        list.display();
+        System.out.println(list.delete(3));
+        list.display();
+        list.reverse();
+        list.display();
     }
 }
